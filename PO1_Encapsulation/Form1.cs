@@ -25,7 +25,7 @@ namespace PO1_Encapsulation
 
 
         }
-        private void actualiserLabels()
+        private void ActualiserLabels()
         {
             lbl_pointsVieJoueur.Text = " Vie du joueur : " + joueur.PointsDevie.ToString();
             lbl_pointsVieDragon.Text = "Vie du dragon : " + dragon.PointsDevie.ToString();
@@ -35,22 +35,22 @@ namespace PO1_Encapsulation
 
         private void btn_attaquer_Click(object sender, EventArgs e)
         {
-
+            ActualiserLabels();
         }
 
         private void btn_seSoigner_Click(object sender, EventArgs e)
         {
-
+            ActualiserLabels();   
         }
 
         private void btn_puissanceAttaque_Click(object sender, EventArgs e)
         {
-
+            ActualiserLabels();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            actualiserLabels();
+            ActualiserLabels();
         }
     }
 }
