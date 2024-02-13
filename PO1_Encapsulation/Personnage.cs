@@ -23,6 +23,7 @@ namespace PO1_Encapsulation
                 {
                     pointsDevie = 0;
                 }
+             
                 else
                 {
                     pointsDevie = value;
